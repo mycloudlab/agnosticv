@@ -1,0 +1,37 @@
+---
+# optional:
+# agnosticv catalog_item false
+
+cloud_provider: none
+strategic_dict:
+  alist: ["1", "2"]
+
+adict:
+  strategic_list:
+    - name: foo
+      value: account
+  alist:
+    - fromaccount
+  blist:
+    - fromaccount
+alist:
+  - fromaccount
+
+##########################
+# Babylon meta variables #
+##########################
+
+__meta__:
+  # Dark Tower configuration
+  tower:
+    organization: gpte
+
+  deployer:
+    scm_url: https://github.com/redhat-cop/agnosticd.git
+    scm_type: git
+    type: agnosticd
+
+  catalog:
+    keywords:
+      - keyword1
+      - keyword2

@@ -1,0 +1,18 @@
+---
+# Agnosticd variables
+platform: babylon
+
+strategic_dict:
+  alist: ["3", "4"]
+adict:
+  strategic_list:
+    - name: foo
+      value: common
+
+output_dir: /tmp/output_dir/{{ env_type }}-{{ guid }}
+env_type: test-empty-config
+cloud_provider: test
+
+noappend_dict:
+  a:
+    - fromcommon
