@@ -6,6 +6,7 @@ __meta__:
   - from-root-common.yml
   access_control:
     allow_groups:
+      - system:autenticated
       - all
 foo: from-root-common
 fooc: from-root-common
