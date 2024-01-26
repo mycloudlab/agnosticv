@@ -44,7 +44,7 @@ __meta__:
 
   lifespan:
     # Don't comply with the schema1.yaml, force error.
-    default: wrong
+    default: 3d
 
   catalog:
     namespace: gpte

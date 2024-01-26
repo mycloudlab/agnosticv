@@ -21,7 +21,7 @@ __meta__:
     namespace: openshift
 
     description: >-
-      this is an OCP Clientvm
+      this is an OCP Clientvm in dev
 
     tags:
       - babylon

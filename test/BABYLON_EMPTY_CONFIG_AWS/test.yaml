@@ -1,6 +1,6 @@
 ---
 #include ../../includes/include2.meta.yml
-purpose: test
+purpose: development
 
 #########################################
 # Meta variables for admin host scripts #
