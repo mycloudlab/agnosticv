@@ -1,5 +1,0 @@
----
-secrets:
-  - name: a
-    value: fromcommon
-  - name: onlyincommon

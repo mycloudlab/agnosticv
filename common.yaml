@@ -1,18 +1,16 @@
-__meta__:
-  secrets:
-    - name: foo
-      value: from-top-common.yml
-  toplist:
-  - from-root-common.yml
-  access_control:
-    allow_groups:
-      - system:autenticated
-      - all
-foo: from-root-common
-fooc: from-root-common
-foodev: from-root-common
-toplist:
-- from-root-common
+---
+#include /includes/ansible_control_plane.yaml
 
-topdict:
-  a: from-root-comon
+__meta__:
+  deployer:
+    scm_type: git
+    scm_url: https://github.com/redhat-cop/agnosticd.git
+    type: agnosticd
+  secrets:
+  # A OpenShift secret named "vault-credentials" must be in each Anarchy namespace
+  # The secret should have data item with a name that matches the vault id used to
+  # protect the credentials.
+  #
+  # In these example the vault secret id is "example" with vault secret "secret"
+  - name: vault-credentials
+    var: vault_credentials

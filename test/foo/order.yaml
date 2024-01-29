@@ -1,5 +1,0 @@
----
-#include ../../includes/order1.yaml
-#include ../../includes/order2.yaml
-#include ../../includes/order3.yaml
-bar: order.yaml
