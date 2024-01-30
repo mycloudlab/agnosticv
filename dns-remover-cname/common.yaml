@@ -20,7 +20,7 @@ __meta__:
     display_name: DNS - Remover CNAME
     labels:
       Provider: Infraestrutura
-      Dono: ctd-servu
+      Dono: "ctd - servu"
     category: DNS
     parameters:
       - name: fail_pre_infra
