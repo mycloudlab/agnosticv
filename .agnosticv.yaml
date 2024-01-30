@@ -4,4 +4,4 @@ related_files_v2:
     load_into: /__meta__/catalog/description
     content_key: content
     set:
-      descriptionFormat: asciidoc
+      format: asciidoc
