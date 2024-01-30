@@ -96,10 +96,10 @@ properties:
           category:
             type: string
             enum:
-              - Demos
-              - Labs
-              - Open_Environments
-              - Workshops
+              - DNS
+              - Infraestrutura
+              - Networking
+              - Firewall
 
           disable:
             description: >-
