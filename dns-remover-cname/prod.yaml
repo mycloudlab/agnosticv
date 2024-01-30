@@ -5,8 +5,6 @@ __meta__:
   catalog:
     # Don't put test catalog item in production catalog
     namespace: catalog-cx-infra
-    description: >-
-      this is The PROD catalog item
     tags:
       - babylon
       - ocp
