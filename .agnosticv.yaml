@@ -1,0 +1,7 @@
+# For any catalog item, consider those in same directory as related files:
+related_files_v2:
+  - file: description.adoc
+    load_into: /__meta__/catalog
+    content_key: description
+    set:
+      descriptionFormat: asciidoc

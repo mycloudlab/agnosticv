@@ -5,6 +5,11 @@ __meta__:
   catalog:
     # Don't put test catalog item in production catalog
     namespace: catalog-cx-infra
+    description: >-
+      this is The PROD catalog item
+    tags:
+      - babylon
+      - ocp
   deployer:
     execution_environment:
       image: quay.io/agnosticd/ee-multicloud:v0.1.1
