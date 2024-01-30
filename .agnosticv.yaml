@@ -2,6 +2,6 @@
 related_files_v2:
   - file: description.adoc
     load_into: /__meta__/catalog
-    content_key: description
+    content_key: description/content
     set:
       descriptionFormat: asciidoc
