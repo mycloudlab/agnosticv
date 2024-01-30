@@ -94,14 +94,12 @@ properties:
         additionalProperties: false
         properties:
           category:
-            type: array
-            items:
-              type: string
-              enum:
-                - DNS
-                - Infraestrutura
-                - Networking
-                - Firewall
+            type: string
+            enum:
+              - DNS
+              - Infraestrutura
+              - Networking
+              - Firewall
 
           disable:
             description: >-

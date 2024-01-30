@@ -20,11 +20,7 @@ __meta__:
     display_name: Firewall - Liberação temporária de internet
     labels:
       Provider: Infraestrutura
-    category:
-    - Firewall
-    - Infraestrutura
-    - Networking
-
+    category: Firewall
     parameters:
       - name: fail_pre_infra
         description: Request failure in AgnosticD pre_infra.yml

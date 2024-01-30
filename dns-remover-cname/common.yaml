@@ -20,11 +20,7 @@ __meta__:
     display_name: DNS - Remover CNAME
     labels:
       Provider: Infraestrutura
-    category:
-    - DNS
-    - Infraestrutura
-    - Networking
-
+    category: DNS
     parameters:
       - name: fail_pre_infra
         description: Request failure in AgnosticD pre_infra.yml

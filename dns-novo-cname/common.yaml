@@ -20,10 +20,7 @@ __meta__:
     display_name: DNS - Novo CNAME
     labels:
       Provider: Infraestrutura
-    category:
-    - DNS
-    - Infraestrutura
-    - Networking
+    category: DNS
 
     parameters:
       - name: fail_pre_infra
