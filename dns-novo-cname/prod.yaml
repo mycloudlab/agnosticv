@@ -1,10 +1,10 @@
 ---
-purpose: test
+purpose: production
 
 __meta__:
   catalog:
     # Don't put test catalog item in production catalog
-    namespace: babylon-catalog-test
+    namespace: catalog-cx-infra
   deployer:
     execution_environment:
       image: quay.io/agnosticd/ee-multicloud:v0.1.1

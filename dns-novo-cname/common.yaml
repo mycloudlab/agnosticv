@@ -13,14 +13,18 @@ fail_pre_software: false
 fail_software: false
 test_empty_config_pause_post_software: true
 test_empty_config_pause_post_software_seconds: 10
-
 __meta__:
+
   asset_uuid: f2ec4b33-e44c-4208-a6d1-297ffc409399
   catalog:
-    display_name: Test Empty Config
-    namespace: babylon-catalog-{{ stage | default('?') }}
+    display_name: DNS - Novo CNAME
     labels:
-      Provider: RHDP
+      Provider: Time Infraestrutura
+    category:
+    - DNS
+    - Infraestrutura
+    - Networking
+
     parameters:
       - name: fail_pre_infra
         description: Request failure in AgnosticD pre_infra.yml

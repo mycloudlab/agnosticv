@@ -2,6 +2,12 @@
 #include /includes/ansible_control_plane.yaml
 
 __meta__:
+  
+  anarchy:
+    namespace: babylon-anarchy-cx
+  tower:
+    organization: test
+
   deployer:
     scm_type: git
     scm_url: https://github.com/redhat-cop/agnosticd.git
