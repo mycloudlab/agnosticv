@@ -6,5 +6,5 @@ __meta__:
     # Don't put test catalog item in production catalog
     namespace: catalog-cx-infra
   anarchy:
-    runner: another
+    roles: []
     
