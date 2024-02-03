@@ -7,16 +7,4 @@ __meta__:
     namespace: catalog-cx-infra
   anarchy:
     runner: another
-    subjectEventHandlers:
-      create:
-        tasks:
-          - name: Set state provision-scheduled in subject status
-            anarchy_subject_update:
-              metadata:
-                labels:
-                  state: provision-scheduled
-              status:
-                state: provision-scheduled
-          - name: Start Provision
-            anarchy_schedule_action:
-              action: provision
+    
