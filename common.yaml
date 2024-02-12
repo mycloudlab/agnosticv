@@ -4,7 +4,7 @@
 __meta__:
   
   anarchy:
-    namespace: babylon-anarchy-cx
+    namespace: anarchy
   tower:
     organization: test
 
